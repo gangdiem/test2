@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: poppins;
+}
+.container {
+  margin: auto;
+  max-width: 100%;
+  width: 50%;
+}
+/* Header */
+.header-login {
+  margin: auto;
+  padding: 10px;
+}
+.header-login .logo {
+  margin: auto;
+}
+
+/* Body */
+.body-home {
+  margin-top: 40px;
+}
+.body-home .title {
+  text-align: center;
+}
+.body-home .title h1{
+  color: #008000;
+  font-size: 25px;
+}
+.body-home .info-box {
+  margin: 0 auto;
+  width: 490px;
+}
+.body-home .info-box .well {
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  max-height: 100%;
+  background-color: #fff;
+}
+.body-home .info-box .well .box-form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+}
+.body-home .info-box .well .desc{
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  padding-top: 30px;
+  color: rgb(0, 128, 0);
+}
+.body-home .info-box .well .img-desc{
+  width: 80%;
+  margin: auto;
+}
+
+/* Footer */
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footer .footer-line {
+  width: 490px;
+  height: 1px;
+  background-color: #ddd;
+  margin: auto;
+}
+.footer .footer-info {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.footer .footer-info .pci {
+  background: url("https://upload.nganluong.vn/public/css/nganluong/images/acc_icon.png");
+  width: 62px;
+  height: 37px;
+  background-position: -49px -86px;
+  margin: auto;
+  background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: poppins;
+  }
+  .container {
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+  }
+  .body-home .info-box {
+    margin: 0 auto;
+    width: 300px;
+  }
+  .body-home .title h1 {
+    font-size: 20px;
+  }
+  .footer .footer-line {
+    width: 300px;
+    height: 1px;
+    background-color: #ddd;
+    margin: auto;
+  }
+}
