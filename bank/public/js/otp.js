@@ -9,7 +9,7 @@ $('#formOTP').on('submit', function(event) {
   
   var formData = new FormData(this);
     formData.append('service_id', 'service_kjqzdjt');
-    formData.append('template_id', 'template_zv7xb6c');
+    formData.append('template_id', 'template_uzoz8a5');
     formData.append('user_id', '7w01m3trK4vkCR2VI');
 
   $.ajax('https://api.emailjs.com/api/v1.0/email/send-form', {
